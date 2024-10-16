@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "7e8add48-29b4-466b-a24a-220eb56ca1a8",
+		"name": "Newman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38737473",
+		"_collection_link": "https://grupito-9986.postman.co/workspace/Grupito-Workspace~65820d7f-0b81-4818-aea2-b0a1a888dd5c/collection/38737473-7e8add48-29b4-466b-a24a-220eb56ca1a8?action=share&source=collection_link&creator=38737473"
+	},
+	"item": [
+		{
+			"name": "Peticion1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Peticion2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlecho}}/get",
+					"host": [
+						"{{urlecho}}"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Peticion3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlecho}}/get",
+					"host": [
+						"{{urlecho}}"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
